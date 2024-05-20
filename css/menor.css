@@ -1,0 +1,26 @@
+.Menor900 {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .Mayor900 {
+        display: none;
+    }
+    .Menor900 {
+        font-family: sans-serif;
+        display: block;
+        color: white;
+    }
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+        background-image: url("../img/Fondo.jpg");
+    }
+}
